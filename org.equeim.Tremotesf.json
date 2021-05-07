@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/archive/1.8.0.tar.gz",
-                    "sha256": "c3e8399f9df0a3a64b5e7a82aa63540e6038ecbabb6357b0d8586640e9b66b4a"
+                    "url": "https://github.com/equeim/tremotesf2/archive/1.9.0.tar.gz",
+                    "sha256": "62d89d87dcf2028a30b19719930113cb2788e905bc6062a6bcacb358d1875706"
                 }
             ]
         }
