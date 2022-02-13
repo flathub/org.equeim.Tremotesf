@@ -23,11 +23,12 @@
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON"
             ],
+            "run-tests": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/archive/1.10.0.tar.gz",
-                    "sha256": "b2d4485dd347b66d6d95032701f714bc50d96f2b3a1cf0bb9a1a97c544b228a2"
+                    "url": "https://github.com/equeim/tremotesf2/archive/1.11.0.tar.gz",
+                    "sha256": "c2d633613f6edb0be08682bc5de29d22238a103c5bbf42329e84a22c948f59ba"
                 }
             ]
         }
