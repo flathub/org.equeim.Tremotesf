@@ -1,7 +1,7 @@
 {
     "app-id": "org.equeim.Tremotesf",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "command": "tremotesf",
     "finish-args": [
@@ -15,10 +15,34 @@
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--talk-name=org.freedesktop.FileManager1"
     ],
+    "cleanup": [
+        "/include",
+        "/lib"
+    ],
     "modules": [
+        {
+            "name" : "fmt",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
+                "-DCMAKE_CXX_STANDARD=17",
+                "-DFMT_DOC=OFF",
+                "-DFMT_TEST=OFF"
+            ],
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://github.com/fmtlib/fmt/releases/download/9.1.0/fmt-9.1.0.zip",
+                    "sha256" : "cceb4cb9366e18a5742128cb3524ce5f50e88b476f1e54737a47ffdf4df4c996"
+                }
+            ]
+        },
         {
             "name": "tremotesf",
             "buildsystem": "cmake-ninja",
+            "builddir": true,
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON"
@@ -27,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/archive/1.11.3.tar.gz",
-                    "sha256": "8b223cac892adc3600430569f1c6aaad3415dac8fa3dca3765ec1c8b42e86308"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.0.0/tremotesf-2.0.0.tar.zst",
+                    "sha256": "049139ba37f87c25584e05dcdf6e7c244a5b8ac0eaf0fd1507ea908db7220fac"
                 }
             ]
         }
