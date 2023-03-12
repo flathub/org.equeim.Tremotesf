@@ -17,7 +17,9 @@
     ],
     "cleanup": [
         "/include",
-        "/lib"
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/lib/*.a"
     ],
     "modules": [
         {
@@ -27,7 +29,6 @@
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
-                "-DCMAKE_CXX_STANDARD=17",
                 "-DFMT_DOC=OFF",
                 "-DFMT_TEST=OFF"
             ],
@@ -36,6 +37,41 @@
                     "type" : "archive",
                     "url" : "https://github.com/fmtlib/fmt/releases/download/9.1.0/fmt-9.1.0.zip",
                     "sha256" : "cceb4cb9366e18a5742128cb3524ce5f50e88b476f1e54737a47ffdf4df4c996"
+                }
+            ]
+        },
+        {
+            "name" : "cxxopts",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
+                "-DCXXOPTS_BUILD_EXAMPLES=OFF",
+                "-DCXXOPTS_BUILD_TESTS=OFF"
+            ],
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://github.com/jarro2783/cxxopts/archive/refs/tags/v3.1.1.tar.gz",
+                    "sha256" : "523175f792eb0ff04f9e653c90746c12655f10cb70f1d5e6d6d9491420298a08"
+                }
+            ]
+        },
+        {
+            "name" : "cpp-httplib",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
+                "-DHTTPLIB_REQUIRE_OPENSSL=ON"
+            ],
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.12.0.tar.gz",
+                    "sha256" : "423900c9a124b88c406cd34aba08c9e60742e477a02bd29051cf0ecbf9ef0c65"
                 }
             ]
         },
@@ -51,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.0.0/tremotesf-2.0.0.tar.zst",
-                    "sha256": "049139ba37f87c25584e05dcdf6e7c244a5b8ac0eaf0fd1507ea908db7220fac"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.1.0/tremotesf-2.1.0.tar.zst",
+                    "sha256": "9ff7e2f3ec074702398b5d3759279ae81397f552553e87ccf91ee4c275f4ad40"
                 }
             ]
         }
