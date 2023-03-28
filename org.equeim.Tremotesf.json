@@ -70,8 +70,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.12.0.tar.gz",
-                    "sha256" : "423900c9a124b88c406cd34aba08c9e60742e477a02bd29051cf0ecbf9ef0c65"
+                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.12.2.tar.gz",
+                    "sha256" : "a7897d052de8fae75817e7a261ae37b89dc4cb8ac74b74458a1f2d2e707cfd03"
                 }
             ]
         },
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.1.0/tremotesf-2.1.0.tar.zst",
-                    "sha256": "78a41b7785cea93ffaddf47626e1c431b1ae3e1eaf9bce9f5e2a42a9c3ad756b"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.2.0/tremotesf-2.2.0.tar.zst",
+                    "sha256": "426f4398a06da93e62b618199c71a5ea16aa38eab9a7b05d641b82c451c2ebcd"
                 }
             ]
         }
