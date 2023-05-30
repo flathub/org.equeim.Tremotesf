@@ -35,8 +35,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/fmtlib/fmt/releases/download/9.1.0/fmt-9.1.0.zip",
-                    "sha256" : "cceb4cb9366e18a5742128cb3524ce5f50e88b476f1e54737a47ffdf4df4c996"
+                    "url" : "https://github.com/fmtlib/fmt/releases/download/10.0.0/fmt-10.0.0.zip",
+                    "sha256" : "4943cb165f3f587f26da834d3056ee8733c397e024145ca7d2a8a96bb71ac281"
                 }
             ]
         },
@@ -70,8 +70,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.12.2.tar.gz",
-                    "sha256" : "a7897d052de8fae75817e7a261ae37b89dc4cb8ac74b74458a1f2d2e707cfd03"
+                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.12.5.tar.gz",
+                    "sha256" : "b488f3fa9c6bf35608c3d9a5b69be52e016bbf2fbfe67e5ee684eadb2655493e"
                 }
             ]
         },
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.3.0/tremotesf-2.3.0.tar.zst",
-                    "sha256": "6b104ebeed432cd14a7324d8d0c7477e571f01a61ae5a849af2a10ae3522a145"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.4.0/tremotesf-2.4.0.tar.zst",
+                    "sha256": "bb36aae53527f5ef1ded12d12dfb83c6be39e2bfbc7a0c9dcde5275fbb3dbe4f"
                 }
             ]
         }
