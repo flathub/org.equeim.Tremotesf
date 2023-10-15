@@ -1,7 +1,7 @@
 {
     "app-id": "org.equeim.Tremotesf",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "tremotesf",
     "finish-args": [
@@ -35,8 +35,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/fmtlib/fmt/releases/download/10.0.0/fmt-10.0.0.zip",
-                    "sha256" : "4943cb165f3f587f26da834d3056ee8733c397e024145ca7d2a8a96bb71ac281"
+                    "url" : "https://github.com/fmtlib/fmt/releases/download/10.1.1/fmt-10.1.1.zip",
+                    "sha256" : "b84e58a310c9b50196cda48d5678d5fa0849bca19e5fdba6b684f0ee93ed9d1b"
                 }
             ]
         },
@@ -70,8 +70,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.12.5.tar.gz",
-                    "sha256" : "b488f3fa9c6bf35608c3d9a5b69be52e016bbf2fbfe67e5ee684eadb2655493e"
+                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.14.1.tar.gz",
+                    "sha256" : "2d4fb5544da643e5d0a82585555d8b7502b4137eb321a4abbb075e21d2f00e96"
                 }
             ]
         },
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.4.0/tremotesf-2.4.0.tar.zst",
-                    "sha256": "bb36aae53527f5ef1ded12d12dfb83c6be39e2bfbc7a0c9dcde5275fbb3dbe4f"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.5.0/tremotesf-2.5.0.tar.zst",
+                    "sha256": "6605a88d8f0a3093572a04c18be5d261725f47af92e763f5fcde4372d7369a42"
                 }
             ]
         }
