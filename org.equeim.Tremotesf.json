@@ -1,7 +1,7 @@
 {
     "app-id": "org.equeim.Tremotesf",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "tremotesf",
     "finish-args": [
@@ -53,8 +53,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/jarro2783/cxxopts/archive/refs/tags/v3.1.1.tar.gz",
-                    "sha256" : "523175f792eb0ff04f9e653c90746c12655f10cb70f1d5e6d6d9491420298a08"
+                    "url" : "https://github.com/jarro2783/cxxopts/archive/refs/tags/v3.2.1.tar.gz",
+                    "sha256" : "841f49f2e045b9c6365997c2a8fbf76e6f215042dda4511a5bb04bc5ebc7f88a"
                 }
             ]
         },
@@ -70,8 +70,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.14.3.tar.gz",
-                    "sha256" : "dcf6486d9030937636d8a4f820ca9531808fd7edb283893dddbaa05f99357e63"
+                    "url" : "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.15.3.tar.gz",
+                    "sha256" : "2121bbf38871bb2aafb5f7f2b9b94705366170909f434428352187cb0216124e"
                 }
             ]
         },
@@ -81,14 +81,15 @@
             "builddir": true,
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-                "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON"
+                "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
+                "-DTREMOTESF_WITH_HTTPLIB=system"
             ],
             "run-tests": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.6.0/tremotesf-2.6.0.tar.zst",
-                    "sha256": "41a844f651f06e63f7ba3e0f54513291a2c89bb3a97bb725374195247e2111fc"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.6.1/tremotesf-2.6.1.tar.zst",
+                    "sha256": "1fe8ca02a843640b52211a2f2a5edeb27eb99816896e86d837127ede939baa03"
                 }
             ]
         }
