@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.6.1/tremotesf-2.6.1.tar.zst",
-                    "sha256": "1fe8ca02a843640b52211a2f2a5edeb27eb99816896e86d837127ede939baa03"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.6.2/tremotesf-2.6.2.tar.zst",
+                    "sha256": "8a8dbfe7d421513eb31e438dcbf39b7e9b24063e4d60c231b663a859befbbce6"
                 }
             ]
         }
