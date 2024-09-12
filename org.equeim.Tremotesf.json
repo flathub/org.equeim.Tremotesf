@@ -69,8 +69,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.16.3.tar.gz",
-                    "sha256": "c1742fc7179aaae2a67ad9bba0740b7e9ffaf4f5e62feef53101ecdef1478716"
+                    "url": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.17.2.tar.gz",
+                    "sha256": "c1234649a9198d04c42178bc434b51032b75cf295005bcfd040410267c1a75f1"
                 }
             ]
         },
@@ -78,6 +78,11 @@
             "name": "tremotesf",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "build-options": {
+                "env": {
+                    "CTEST_OUTPUT_ON_FAILURE": "1"
+                }
+            },
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
@@ -87,8 +92,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.7.0/tremotesf-2.7.0.tar.zst",
-                    "sha256": "dbd41d187b8616a74406389fb4a6233c0f8c696d361030ac8986813bfe4dd6b8"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.7.1/tremotesf-2.7.1.tar.zst",
+                    "sha256": "e0d467bc070852c25767bb580919d5fc63f875f4b59154ed7112aca0c7111ed3"
                 }
             ]
         }
