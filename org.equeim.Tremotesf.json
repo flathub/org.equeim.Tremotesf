@@ -1,7 +1,7 @@
 {
     "app-id": "org.equeim.Tremotesf",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.10",
+    "runtime-version": "6.11",
     "sdk": "org.kde.Sdk",
     "command": "tremotesf",
     "finish-args": [
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.10.0/tremotesf-2.10.0.tar.zst",
-                    "sha256": "2a428bcd9c795e5f3d6cbc764f8de4d95c42e9b692b7e21449084ac668c81e95"
+                    "url": "https://github.com/equeim/tremotesf2/releases/download/2.10.1/tremotesf-2.10.1.tar.zst",
+                    "sha256": "cb2f76054d0567061a33279b12c59782cb29f189f0412c353906a18aa83485af"
                 }
             ]
         }
